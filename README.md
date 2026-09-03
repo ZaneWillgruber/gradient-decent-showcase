@@ -40,15 +40,10 @@ cd gradient-decent-showcase
 uv sync
 ```
 
-## Everyday usage
-
-Prefix commands with `uv run` and uv will use the project environment
-automatically — no manual activation needed:
+## Usage
 
 ```bash
 uv run gradient-decent-showcase        # run the console entry point
-uv run python                          # REPL with the package importable
-uv run python -c "import gradient_decent_showcase"
 ```
 
 ### Adding a dependency
